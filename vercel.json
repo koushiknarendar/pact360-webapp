@@ -1,7 +1,7 @@
 {
   "crons": [
     { "path": "/api/cron/request-deadlines", "schedule": "0 7 * * *" },
-    { "path": "/api/cron/breach-deadlines", "schedule": "0 * * * *" },
+    { "path": "/api/cron/breach-deadlines", "schedule": "0 8 * * *" },
     { "path": "/api/cron/compliance-score", "schedule": "0 2 * * *" }
   ]
 }
